@@ -1,6 +1,6 @@
 def prime?(value)
   if value <= 1 || value == 0 || value == 1
-    return false
+    return true
   elsif
     (2..value - 1).each do |i|
       if value % i == 0
